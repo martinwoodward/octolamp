@@ -60,7 +60,7 @@ Next, feed the wires through the hole in the reflector. If you are using plugs t
 #### Step 4 - Solder LED Strip to D1 Mini
 Rather than use plugs, I solder my strip directly to my D1 Mini, but you can use connectors if you wish.  Connect the +5v and G lines to the corresponding pins on the D1 Mini and the data line to D4 (just above the +5v and G pins).
 
-<img src="images/IMG_9195.jpg" alt="The wires from the LED strip soldered to the D1 Mini" width="600">
+<img src="images/IMG_9125.jpg" alt="The wires from the LED strip soldered to the D1 Mini" width="600">
 
 #### Step 5 - Assemble
 Next up, feed your USB lead through the back of the black outer body and connect it to your D1 Mini.  Place the D1 Mini in the small inlaid portion in the center of the lamp. Then drop in the relfector and finally place the white inner onto it, and snap fit into the black outer body. This should force the white reflector down which then also secures the electronics in place.  Power up your device and at this point about half of your LED's should be glowing orange.
