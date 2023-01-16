@@ -71,7 +71,7 @@ All the rest of the configuration is configuring WLED for your device.  Connect 
 You can now configure your light display with the amazing flexibility of WLED. Once you have your favorite setting, store it as a preset and then go back to the LED Preferences and scroll down to Defaults where you can set which preset it displayed when the lamp is powered on (i.e. Preset 1 instead of the default orange in Preset 0)
 
 #### Step 7 - Share your makes!
-That's it!  You are now done but I'd love to see pictures of your built and assembled lamps.  Feel free to share pictures of them [in discussions here](https://github.com/martinwoodward/octolamp/discussions) or on social media and tag me on them ((martinwoodward@hachyderm.io)[https://hachyderm.io/@martinwoodward] on Mastodon or [@martinwoodward](https://twitter.com/martinwoodward) on Twitter and other socials))[]
+That's it!  You are now done but I'd love to see pictures of your built and assembled lamps.  Feel free to share pictures of them [in discussions here](https://github.com/martinwoodward/octolamp/discussions) or on social media and tag me on them (martinwoodward@hachyderm.io)[https://hachyderm.io/@martinwoodward] on Mastodon or [@martinwoodward](https://twitter.com/martinwoodward) on Twitter and other socials
 
 ### Notes
 
