@@ -1,5 +1,5 @@
 # Make my Octolamp twinkle when someone stars this repo
-name: Sparkle
+name: ✨ Sparkle
 
 # Controls when the workflow will run
 on:
@@ -17,4 +17,7 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       - name: Trigger HA Webhook
-        run: curl ${{ secrets.HA_WEBHOOK_TRIGGER_SPARKLE }}
+        run: |
+          echo Call Home Assistant to invoke webhook
+          curl ${{ secrets.HA_WEBHOOK_TRIGGER_SPARKLE }}
+          echo Sparkled
