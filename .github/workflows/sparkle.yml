@@ -1,0 +1,20 @@
+# Make my Octolamp twinkle when someone stars this repo
+name: Sparkle
+
+# Controls when the workflow will run
+on:
+  # Trigger when someone stars the repo
+  watch:
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  call-ha:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      - name: Trigger HA Webhook
+        run: curl ${{ secrets.HA_WEBHOOK_TRIGGER_SPARKLE }}
