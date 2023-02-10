@@ -9,9 +9,11 @@ To build the Octolamp, you'll need access to a 3D printer, soldering iron and th
 
 - [Black PLA Filament](https://amzn.to/3CTo54W) (for the base) - [[US](https://amzn.to/3CTo54W)] [[UK](https://amzn.to/3w7fCXX)]
 - [White PLA Filament](https://amzn.to/3GKObIz) (for the inner body and reflector) - [[US](https://amzn.to/3GKObIz)] [[UK](https://amzn.to/3XBNVSM)]
-- WS2812B LED Strip, 60 LED's per meter, just under 2m worth but usually sold in spools of 5m - [[US](https://amzn.to/3XwWnCT)] [[UK](https://amzn.to/3QKIzm6)] [[SG](https://s.lazada.sg/s.0zKLk)]
-- ESP8266 NodeMCU D1 Mini Module (or similar clone or other WLED compatible device) - [[US](https://amzn.to/3koQwS0)] [[UK](https://amzn.to/3kmp473)] [[SG](https://shp.ee/9gxtxxn)]
+- WS2812B LED Strip, 60 LED's per meter, just under 2m worth but usually sold in spools of 5m - [[US](https://amzn.to/3XwWnCT)] [[UK](https://amzn.to/3QKIzm6)]
+- ESP8266 NodeMCU D1 Mini Module (or similar clone or other WLED compatible device) - [[US](https://amzn.to/3koQwS0)] [[UK](https://amzn.to/3kmp473)]
 - USB lead (Micro or Type-C depending on the model of D1 Mini you have purchased, usually Micro-USB) [[US](https://amzn.to/3CTpqsl)] [[UK](https://amzn.to/3XxulY2)]
+
+If you are looking for recommended links to buy these somewhere locally then please see [Purchasing Links](#purchasing-links) below.
 
 Assuming you already have the PLA filament and a spare USB lead, the construction cost for the electrical components works out at <$20 per lamp.
 
@@ -79,5 +81,25 @@ I've tried to make the model super flexible so it includes ways to mount the lam
 
 The copyright for the invertocat logo belongs to GitHub. For acceptable use of that logo see the [GitHub logo usage guidelines](https://github.com/logos).
 
+### Purchasing Links
+The fun part of this project is making it yourself, the lamp isn't officially sold pre-assembled (and the license is non-commercial use only so they shouldn't be doing that).  But if you want to buy the components to make this them then the following components have been used and recommended by community members. Note some of these links make use of affiliate programs but they should always be linking to components the community trust.
 
+#### United States
+
+- [Black PLA Filament](https://amzn.to/3CTo54W) (for the base)
+- [White PLA Filament](https://amzn.to/3GKObIz) (for the inner body and reflector)
+- [WS2812B LED Strip, 60 LED's per meter](https://amzn.to/3XwWnCT), just under 2m worth but usually sold in spools of 5m 
+- [ESP8266 NodeMCU D1 Mini Module](https://amzn.to/3koQwS0) (or similar clone or other WLED compatible device)
+- [Ender 3](https://amzn.to/3YjmLkD) S1 3D Printer
+
+#### United Kingdom
+- [Black PLA Filament](https://amzn.to/3w7fCXX) (for the base)
+- [White PLA Filament](https://amzn.to/3XBNVSM) (for the inner body and reflector)
+- [WS2812B LED Strip, 60 LED's per meter](https://amzn.to/3QKIzm6), just under 2m worth but usually sold in spools of 5m 
+- [ESP8266 NodeMCU D1 Mini Module](https://amzn.to/3kmp473) (or similar clone or other WLED compatible device)
+- [Ender 3](https://amzn.to/3xcwoW9) S1 3D Printer
+
+#### Singapore
+- [WS2812B LED Strip, 60 LED's per meter](https://s.lazada.sg/s.0zKLk), just under 2m worth but usually sold in spools of 5m 
+- [ESP8266 NodeMCU D1 Mini Module](https://shp.ee/9gxtxxn) (or similar clone or other WLED compatible device)
 
