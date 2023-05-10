@@ -103,3 +103,8 @@ The fun part of this project is making it yourself, the lamp isn't officially so
 - [WS2812B LED Strip, 60 LED's per meter](https://s.lazada.sg/s.0zKLk), just under 2m worth but usually sold in spools of 5m 
 - [ESP8266 NodeMCU D1 Mini Module](https://shp.ee/9gxtxxn) (or similar clone or other WLED compatible device)
 
+### Link to these instructions
+<img src="images/octocat_QR_code.png"  width="648" height="655" alt="QR Code to these instructions" />
+
+Instructions: https://github.com/martinwoodward/octolamp
+
