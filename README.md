@@ -103,6 +103,12 @@ The fun part of this project is making it yourself, the lamp isn't officially so
 - [WS2812B LED Strip, 60 LED's per meter](https://s.lazada.sg/s.0zKLk), just under 2m worth but usually sold in spools of 5m 
 - [ESP8266 NodeMCU D1 Mini Module](https://shp.ee/9gxtxxn) (or similar clone or other WLED compatible device)
 
+#### Australia
+
+- [WS2812B LED Strip, 60 LED's per meter](https://www.jaycar.com.au/duinotech-arduino-compatible-w2812b-rgb-led-strip-2m/p/XC4390?pos=4&queryId=b30e6ae5bc3d42e01187110f655e4608) contains 2m, with 120 LEDs with connectors installed at ends and wires with connector for soldering to board
+- [ESP8266 Wi-Fi D1 Mini Module](https://www.jaycar.com.au/duinotech-wi-fi-mini-esp8266-main-board/p/XC3802) or similar clone or other WLED compatible device. Note: This option has pre-installed IO header strips so some desoldering may be required
+
+
 ### Link to these instructions
 <img src="images/octocat_QR_code.png"  width="648" height="655" alt="QR Code to these instructions" />
 
