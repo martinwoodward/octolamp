@@ -50,7 +50,7 @@ Flash the device with the latest build of WLED, configure the device to connect 
 
 #### Step 2 - Stick the LED Strip to the White Inner
 
-The White Inner component acts as the guide for the flexible LED strip as well as the diffuser for the lights which are stuck to the side. You only need the +5v, G and Data pins so snip off any additional power lines that might come with your strip or solder on new wires to the strip if yours didn't come with pre-soldered wires.  Remove the plastic from the adhesive backing and start sticking at the bottom middle, looping around the outside then over to the inside and finally around the central part. Cut at the marked lines when you are finally done.
+The White Inner component acts as the guide for the flexible LED strip as well as the diffuser for the lights which are stuck to the side. You only need the +5v, G and Data pins so snip off any additional power lines that might come with your strip or solder on new wires to the strip if yours didn't come with pre-soldered wires.  Remove the plastic from the adhesive backing and start sticking at the bottom middle, looping around the outside then over to the inside and finally around the central part. Cut at the marked lines when you are finally done. Depending on your LED strip, the central part may require some additional adhesive, such as PLA friendly glue, to remain in place due to the reverse bend going from Octocat's body to head.
 
 <img src="images/IMG_9090.jpg" alt="Path of the LED strip" width="600">
 
