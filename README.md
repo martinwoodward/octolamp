@@ -50,7 +50,7 @@ Flash the device with the latest build of WLED, configure the device to connect 
 
 #### Step 2 - Stick the LED Strip to the White Inner
 
-The White Inner component acts as the guide for the flexible LED strip as well as the diffuser for the lights which are stuck to the side. You only need the +5v, G and Data pins so snip off any additional power lines that might come with your strip or solder on new wires to the strip if yours didn't come with pre-soldered wires.  Remove the plastic from the adhesive backing and start sticking at the bottom middle, looping around the outside then over to the inside and finally around the central part. Cut at the marked lines when you are finally done.
+The White Inner component acts as the guide for the flexible LED strip as well as the diffuser for the lights which are stuck to the side. You only need the +5v, G and Data pins so snip off any additional power lines that might come with your strip or solder on new wires to the strip if yours didn't come with pre-soldered wires.  Remove the plastic from the adhesive backing and start sticking at the bottom middle, looping around the outside then over to the inside and finally around the central part. Cut at the marked lines when you are finally done. Depending on your LED strip, the central part may require some additional adhesive, such as PLA friendly glue, to remain in place due to the reverse bend going from Octocat's body to head.
 
 <img src="images/IMG_9090.jpg" alt="Path of the LED strip" width="600">
 
@@ -85,7 +85,6 @@ The copyright for the invertocat logo belongs to GitHub. For acceptable use of t
 The fun part of this project is making it yourself, the lamp isn't officially sold pre-assembled (and the license is non-commercial use only so they shouldn't be doing that).  But if you want to buy the components to make this them then the following components have been used and recommended by community members. Note some of these links make use of affiliate programs but they should always be linking to components the community trust.
 
 #### United States
-
 - [Black PLA Filament](https://amzn.to/3CTo54W) (for the base)
 - [White PLA Filament](https://amzn.to/3GKObIz) (for the inner body and reflector)
 - [WS2812B LED Strip, 60 LED's per meter](https://amzn.to/3XwWnCT), just under 2m worth but usually sold in spools of 5m 
@@ -102,6 +101,11 @@ The fun part of this project is making it yourself, the lamp isn't officially so
 #### Singapore
 - [WS2812B LED Strip, 60 LED's per meter](https://s.lazada.sg/s.0zKLk), just under 2m worth but usually sold in spools of 5m 
 - [ESP8266 NodeMCU D1 Mini Module](https://shp.ee/9gxtxxn) (or similar clone or other WLED compatible device)
+
+#### Australia
+- [WS2812B LED Strip, 60 LED's per meter](https://www.jaycar.com.au/duinotech-arduino-compatible-w2812b-rgb-led-strip-2m/p/XC4390?pos=4&queryId=b30e6ae5bc3d42e01187110f655e4608) contains 2m, with 120 LEDs with connectors installed at ends and wires with connector for soldering to board
+- [ESP8266 Wi-Fi D1 Mini Module](https://www.jaycar.com.au/duinotech-wi-fi-mini-esp8266-main-board/p/XC3802) or similar clone or other WLED compatible device. Note: This option has pre-installed IO header strips so some desoldering may be required
+
 
 ### Link to these instructions
 <img src="images/octocat_QR_code.png"  width="648" height="655" alt="QR Code to these instructions" />
