@@ -1,5 +1,5 @@
 # Octolamp
-A 3D printable, GitHub infused, wifi enabled smart light powered by [WLED](https://kno.wled.ge/) and compatible with [Home Assistant](https://www.home-assistant.io/)
+A 3D printable, GitHub-infused, WiFi-enabled smart light powered by [WLED](https://kno.wled.ge/) and compatible with [Home Assistant](https://www.home-assistant.io/)
 
 <img src="images/IMG_9122.jpg" alt="Picture of a fully constructed Octolamp" width="600" />
 
@@ -9,7 +9,7 @@ To build the Octolamp, you'll need access to a 3D printer, soldering iron and th
 
 - [Black PLA Filament](https://amzn.to/3CTo54W) (for the base) - [[US](https://amzn.to/3CTo54W)] [[UK](https://amzn.to/3w7fCXX)]
 - [White PLA Filament](https://amzn.to/3GKObIz) (for the inner body and reflector) - [[US](https://amzn.to/3GKObIz)] [[UK](https://amzn.to/3XBNVSM)]
-- WS2812B LED Strip, 60 LED's per meter, just under 2m worth but usually sold in spools of 5m - [[US](https://amzn.to/3XwWnCT)] [[UK](https://amzn.to/3QKIzm6)]
+- WS2812B LED Strip, 60 LEDs per meter, just under 2m worth but usually sold in spools of 5m - [[US](https://amzn.to/3XwWnCT)] [[UK](https://amzn.to/3QKIzm6)]
 - ESP8266 NodeMCU D1 Mini Module (or similar clone or other WLED compatible device) - [[US](https://amzn.to/3koQwS0)] [[UK](https://amzn.to/3kmp473)]
 - USB lead (Micro or Type-C depending on the model of D1 Mini you have purchased, usually Micro-USB) [[US](https://amzn.to/3CTpqsl)] [[UK](https://amzn.to/3XxulY2)]
 
@@ -38,11 +38,11 @@ When you have assembled your 3d printed parts you can begin contruction.
 
 #### Step 1 - Install WLED
 
-First, you'll want to flash your D1 Mini device with [WLED](https://kno.wled.ge/) and then configure it to connect to your WiFi network. the [WLED project](https://kno.wled.ge/) is an open source firmware for many embedded devices that allow you to create beatiful LED displays and network them together. There are controller apps for iOS and Android and it is also fully compatible with the popular [Home Assistant](https://www.home-assistant.io/) software meaning that once built you can control your lamp from anywhere and build any number of automations so that it flashes when someone stars your GitHub repo, changes color when your build breaks or switches on and off with your office lights. 
+First, you'll want to flash your D1 Mini device with [WLED](https://kno.wled.ge/) and then configure it to connect to your WiFi network. the [WLED project](https://kno.wled.ge/) is an open source firmware for many embedded devices that allow you to create beautiful LED displays and network them together. There are controller apps for iOS and Android and it is also fully compatible with the popular [Home Assistant](https://www.home-assistant.io/) software meaning that once built you can control your lamp from anywhere and build any number of automations so that it flashes when someone stars your GitHub repo, changes color when your build breaks or switches on and off with your office lights. 
 
-Note that for large LED displays you can need significant power, you'll also likely want a controller that has a level shifter to send a reliable 5v signal for data to your LED strip. However as we're only powering 100 or so LED's you can get away with pulling the power and data directly from the pins of an inexpensive D1 Mini.
+Note that for large LED displays you can need significant power, you'll also likely want a controller that has a level shifter to send a reliable 5v signal for data to your LED strip. However as we're only powering 100 or so LEDs you can get away with pulling the power and data directly from the pins of an inexpensive D1 Mini.
 
-The quickest and easiest way to install WLED on your D1 mini is to plug it into the USB socket on your computer and then visit the [WLED web installer site](https://install.wled.me/).
+The quickest and easiest way to install WLED on your D1 Mini is to plug it into the USB socket on your computer and then visit the [WLED web installer site](https://install.wled.me/).
 
 - [https://install.wled.me/](https://install.wled.me/)
 
@@ -54,7 +54,7 @@ The White Inner component acts as the guide for the flexible LED strip as well a
 
 <img src="images/IMG_9090.jpg" alt="Path of the LED strip" width="600">
 
-When finished you should have around 100 LED's in your lamp, but it's worth counting at this point as you'll need the exact number later (depending how I did my sticking I've used anything from 99 to 105)
+When finished you should have around 100 LEDs in your lamp, but it's worth counting at this point as you'll need the exact number later (depending how I did my sticking I've used anything from 99 to 105)
 
 #### Step 3 - Add the Reflector
 Next, feed the wires through the hole in the reflector. If you are using plugs to connect your strip and controller then you can do this at any time but if you are soldering the strip directly to the controller then you need to do it now.
@@ -65,10 +65,10 @@ Rather than use plugs, I solder my strip directly to my D1 Mini, but you can use
 <img src="images/IMG_9125.jpg" alt="The wires from the LED strip soldered to the D1 Mini" width="600">
 
 #### Step 5 - Assemble
-Next up, feed your USB lead through the back of the black outer body and connect it to your D1 Mini.  Place the D1 Mini in the small inlaid portion in the center of the lamp. Then drop in the relfector and finally place the white inner onto it, and snap fit into the black outer body. This should force the white reflector down which then also secures the electronics in place.  Power up your device and at this point about half of your LED's should be glowing orange.
+Next up, feed your USB lead through the back of the black outer body and connect it to your D1 Mini.  Place the D1 Mini in the small inlaid portion in the center of the lamp. Then drop in the reflector and finally place the white inner onto it, and snap fit into the black outer body. This should force the white reflector down which then also secures the electronics in place.  Power up your device and at this point about half of your LEDs should be glowing orange.
 
 #### Step 6 - Connect to WLED and configure display
-All the rest of the configuration is configuring WLED for your device.  Connect using the IP address from installation time, then go to Config, LED Preferences and update the Length of the LED strip to be the number of LED's you installed in Step 2 (for me that's typically between 99 - 105).  When you press Save the rest of your LED's should be glowing orange.
+All the rest of the configuration is configuring WLED for your device.  Connect using the IP address from installation time, then go to Config, LED Preferences and update the Length of the LED strip to be the number of LEDs you installed in Step 2 (for me that's typically between 99 - 105).  When you press Save the rest of your LEDs should be glowing orange.
 
 You can now configure your light display with the amazing flexibility of WLED. Once you have your favorite setting, store it as a preset and then go back to the LED Preferences and scroll down to Defaults where you can set which preset it displayed when the lamp is powered on (i.e. Preset 1 instead of the default orange in Preset 0)
 
@@ -87,23 +87,23 @@ The fun part of this project is making it yourself, the lamp isn't officially so
 #### United States
 - [Black PLA Filament](https://amzn.to/3CTo54W) (for the base)
 - [White PLA Filament](https://amzn.to/3GKObIz) (for the inner body and reflector)
-- [WS2812B LED Strip, 60 LED's per meter](https://amzn.to/3XwWnCT), just under 2m worth but usually sold in spools of 5m 
+- [WS2812B LED Strip, 60 LEDs per meter](https://amzn.to/3XwWnCT), just under 2m worth but usually sold in spools of 5m 
 - [ESP8266 NodeMCU D1 Mini Module](https://amzn.to/3koQwS0) (or similar clone or other WLED compatible device)
 - [Ender 3](https://amzn.to/3YjmLkD) S1 3D Printer
 
 #### United Kingdom
 - [Black PLA Filament](https://amzn.to/3w7fCXX) (for the base)
 - [White PLA Filament](https://amzn.to/3XBNVSM) (for the inner body and reflector)
-- [WS2812B LED Strip, 60 LED's per meter](https://amzn.to/3QKIzm6), just under 2m worth but usually sold in spools of 5m 
+- [WS2812B LED Strip, 60 LEDs per meter](https://amzn.to/3QKIzm6), just under 2m worth but usually sold in spools of 5m 
 - [ESP8266 NodeMCU D1 Mini Module](https://amzn.to/3kmp473) (or similar clone or other WLED compatible device)
 - [Ender 3](https://amzn.to/3xcwoW9) S1 3D Printer
 
 #### Singapore
-- [WS2812B LED Strip, 60 LED's per meter](https://s.lazada.sg/s.0zKLk), just under 2m worth but usually sold in spools of 5m 
+- [WS2812B LED Strip, 60 LEDs per meter](https://s.lazada.sg/s.0zKLk), just under 2m worth but usually sold in spools of 5m 
 - [ESP8266 NodeMCU D1 Mini Module](https://shp.ee/9gxtxxn) (or similar clone or other WLED compatible device)
 
 #### Australia
-- [WS2812B LED Strip, 60 LED's per meter](https://www.jaycar.com.au/duinotech-arduino-compatible-w2812b-rgb-led-strip-2m/p/XC4390?pos=4&queryId=b30e6ae5bc3d42e01187110f655e4608) contains 2m, with 120 LEDs with connectors installed at ends and wires with connector for soldering to board
+- [WS2812B LED Strip, 60 LEDs per meter](https://www.jaycar.com.au/duinotech-arduino-compatible-w2812b-rgb-led-strip-2m/p/XC4390?pos=4&queryId=b30e6ae5bc3d42e01187110f655e4608) contains 2m, with 120 LEDs with connectors installed at ends and wires with connector for soldering to board
 - [ESP8266 Wi-Fi D1 Mini Module](https://www.jaycar.com.au/duinotech-wi-fi-mini-esp8266-main-board/p/XC3802) or similar clone or other WLED compatible device. Note: This option has pre-installed IO header strips so some desoldering may be required
 
 
