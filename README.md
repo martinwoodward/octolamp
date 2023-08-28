@@ -1,5 +1,5 @@
 # Octolamp
-A 3D printable, GitHub-infused, WiFi-enabled smart light powered by [WLED](https://kno.wled.ge/) and compatible with [Home Assistant](https://www.home-assistant.io/)
+A 3D printable, GitHub infused, WiFi enabled smart light powered by [WLED](https://kno.wled.ge/) and compatible with [Home Assistant](https://www.home-assistant.io/)
 
 <img src="images/IMG_9122.jpg" alt="Picture of a fully constructed Octolamp" width="600" />
 
