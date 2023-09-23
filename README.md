@@ -108,7 +108,7 @@ The fun part of this project is making it yourself, the lamp isn't officially so
 
 
 ### Link to these instructions
-<img src="images/octocat_QR_code.png"  width="648" height="655" alt="QR Code to these instructions" />
+<img src="images/octocat_QR_code.png"  width="400" height="400" alt="QR Code to these instructions" />
 
 Instructions: https://github.com/martinwoodward/octolamp
 
