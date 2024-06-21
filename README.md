@@ -112,3 +112,5 @@ The fun part of this project is making it yourself, the lamp isn't officially so
 
 Instructions: https://github.com/martinwoodward/octolamp
 
+An 85% scale of the Lamp is available [here](models/octolamp_multipart_A1_mini.3mf) for those with smaller print beds.
+
