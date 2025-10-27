@@ -1,4 +1,8 @@
-# Assembling Your Octolamp at Universe '25
+# Assembling Your Octolamp Kit at Universe '25
+
+Your Octolamp kit includes all the components you need to assemble your very own Octolamp! Follow these step-by-step instructions to get your lamp up and running.
+
+Powered by an [Adafruit Sparkle Motion Mini](https://www.adafruit.com/product/6314) microcontroller, your Octolamp features an LED strip that is smarter than it may first appear.
 
 ## What is Included
 - White inner part
@@ -78,5 +82,9 @@
 
 ## Step 7: Clean Up
 1. Tidy your workspace, returning tools and disposing of LED strip trimmings.
-2. Pack your completed lamp back into its bag along with the information card.
+2. Pack your completed lamp back into its bag.
 3. Go explore what the rest of Universe has to offer!
+
+When you get home, connect to the `WLED-AP` WiFi access point the lamp is broadcasting (password: `wled1234`) to customize its colors & behavior. Learn more about what’s possible at https://kno.wled.ge/ - there's Home-Assistant integration & more!
+
+Share what you build with us on social media! `#MadeAtGitHubUniverse`
