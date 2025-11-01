@@ -1,19 +1,20 @@
-# Assembling Your Octolamp Kit at Universe '25
+# Assembling Your Octolamp Kit
 
 Your Octolamp kit includes all the components you need to assemble your very own Octolamp! Follow these step-by-step instructions to get your lamp up and running.
 
 Powered by an [Adafruit Sparkle Motion Mini](https://www.adafruit.com/product/6314) microcontroller, your Octolamp features an LED strip that is smarter than it may first appear.
 
 ## What is Included
-- White inner part
-- Black outer cover
-- Black base
-- White reflector
+- [Black base (Sparkle Motion Edition)](https://github.com/martinwoodward/octolamp/blob/main/models/octolamp_black_outer_mini_sparkle_motion.stl)
+- [Black Controller cover](https://github.com/martinwoodward/octolamp/tree/main/models#:~:text=octolamp_black_outer_mini_sparkle_motion_top.stl)
+- [White LED Holder](https://github.com/martinwoodward/octolamp/blob/main/models/octolamp_white_inner.stl)
+- [White reflector](https://github.com/martinwoodward/octolamp/blob/main/models/octolamp_white_reflector.stl)
 - Screwdriver
-- Microcontroller
+- [Adafruit Sparkle Motion Mini Microcontroller](https://www.adafruit.com/product/6314)
 - USB cable
 - LED cable
-- LED strip
+- LED strip (IP30 60 LED's per metre)
+- Cable tie
 
 <img src="images/3d_printed_components.jpg" alt="3D printed components of the Octolamp including white inner shell, black outer cover, black base, and white reflector arranged on a surface" width="500">
 <img src="images/electronic_components.jpg" alt="Electronic components for the Octolamp including microcontroller board, USB cable, LED cable, and LED strip laid out ready for assembly" width="500">
@@ -30,7 +31,7 @@ Powered by an [Adafruit Sparkle Motion Mini](https://www.adafruit.com/product/63
 1. **Important:** Uncoil the LED strip completely. Powering LEDs while tightly coiled will cause overheating.
 2. Connect the LED cable to the LED strip. The cable should connect to the end with arrows pointing **away** from the connector.
 3. Plug the USB cable into the microcontroller and connect to a power supply.
-4. Most LEDs should light up bright green. The last few LEDs remaining off is normal.
+4. The LED's should now light up, either orange or green. 
 5. If your LEDs do not turn on, check your connections.
 6. If you are still having trouble, ask for help!
 
@@ -87,4 +88,4 @@ Powered by an [Adafruit Sparkle Motion Mini](https://www.adafruit.com/product/63
 
 When you get home, connect to the `WLED-AP` WiFi access point the lamp is broadcasting (password: `wled1234`) to customize its colors & behavior. Learn more about what’s possible at https://kno.wled.ge/ - there's a [Home Assistant integration](https://www.home-assistant.io/integrations/wled/) & more!
 
-Share what you build with us on social media! `#MadeAtGitHubUniverse`
+Share what you build with us.  You can post picture of your makes [here](https://github.com/martinwoodward/octolamp/discussions/categories/show-and-tell) or on social media! `#MadeAtGitHubUniverse`
