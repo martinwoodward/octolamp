@@ -85,6 +85,6 @@ Powered by an [Adafruit Sparkle Motion Mini](https://www.adafruit.com/product/63
 2. Pack your completed lamp back into its bag.
 3. Go explore what the rest of Universe has to offer!
 
-When you get home, connect to the `WLED-AP` WiFi access point the lamp is broadcasting (password: `wled1234`) to customize its colors & behavior. Learn more about what’s possible at https://kno.wled.ge/ - there's Home-Assistant integration & more!
+When you get home, connect to the `WLED-AP` WiFi access point the lamp is broadcasting (password: `wled1234`) to customize its colors & behavior. Learn more about what’s possible at https://kno.wled.ge/ - there's a [Home Assistant integration](https://www.home-assistant.io/integrations/wled/) & more!
 
 Share what you build with us on social media! `#MadeAtGitHubUniverse`
