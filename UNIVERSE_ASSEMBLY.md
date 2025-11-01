@@ -2,6 +2,8 @@
 
 Your Octolamp kit includes all the components you need to assemble your very own Octolamp! Follow these step-by-step instructions to get your lamp up and running.
 
+You can find a video version of this tutorial here: https://youtu.be/Ya8gMkDxdD4 
+
 Powered by an [Adafruit Sparkle Motion Mini](https://www.adafruit.com/product/6314) microcontroller, your Octolamp features an LED strip that is smarter than it may first appear.
 
 ## What is Included
